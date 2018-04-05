@@ -371,6 +371,10 @@ public class ChatView extends RelativeLayout {
         chatViewListAdapter.addMessage(chatMessage);
     }
 
+    public void addMessage(ChatMessage chatMessage,int index) {
+         chatViewListAdapter.addMessage(chatMessage ,index);
+    }
+
     public void addMessages(ArrayList<ChatMessage> messages) {
         chatViewListAdapter.addMessages(messages);
     }
