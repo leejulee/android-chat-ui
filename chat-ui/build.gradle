@@ -10,12 +10,12 @@ ext {
 
     libraryDescription = 'A UI Chat Interface Library for Android Applications'
 
-    siteUrl = 'https://github.com/IntentService/android-chat-ui'
-    gitUrl = 'https://github.com/IntentService/android-chat-ui'
+    siteUrl = 'https://github.com/leejulee/android-chat-ui'
+    gitUrl = 'https://github.com/leejulee/android-chat-ui'
 
-    libraryVersion = '0.1.3.1'
+    libraryVersion = '0.1.3.2'
 
-    developerId = 'leejulee'
+    developerId = 'timigod'
     developerName = 'Timi Ajiboye'
     developerEmail = 'trypio00@gmail.com'
 

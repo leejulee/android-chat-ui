@@ -116,6 +116,11 @@ public class ChatViewListAdapter extends BaseAdapter {
         notifyDataSetChanged();
     }
 
+    public void addMessages(ArrayList<ChatMessage> chatMessages,int index) {
+        this.chatMessages.addAll(index,chatMessages);
+        notifyDataSetChanged();
+    }
+
     public void removeMessage(int position) {
         if (this.chatMessages.size() > position) {
             this.chatMessages.remove(position);
