@@ -50,7 +50,7 @@
         app:cardElevation="1dp"
         app:contentPadding="2dp">
 
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/input_edit_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
